@@ -2,9 +2,9 @@ import rl from "./util/input.js";
 
 rl. question ('Sisestage enda vanus: ', vanus =>{
     rl.question ('Sisestage enda sugu (M või m / N või n): ', sugu =>{
-        if (sugu != 'M'|| sugu !='m'|| sugu !='n'|| sugu!='N'){
+        if (sugu != 'M'&& sugu !='m' && sugu !='n'&& sugu!='N'){
             console.log('Sisestatud sugu pole õige')
-            rl.close ()
+            rl.close()
             return
          }  
         rl.question ('Sisestage treeningu tüüp (1, 2 või 3):', trenn =>{ 
